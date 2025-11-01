@@ -126,7 +126,7 @@ export async function sign_out() {
 // sign_out()
 
 // console.log(pathname)
-if (pathname == "/login.html") {
+if (pathname == "login.html") {
     //          {signUp_btn}
     const signUp = document.getElementById("signUp");
     signUp.addEventListener("click", () => { sign_up() });
