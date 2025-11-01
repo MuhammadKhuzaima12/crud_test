@@ -134,11 +134,12 @@ if (pathname == "/login.html") {
     //          {signIn_btn}
     const signIn = document.getElementById("signIn");
     signIn.addEventListener("click", () => { sign_in() })
-} else {
+} 
+// else {
     //          {signOut_btn}
     // const signOut = document.getElementById("signOut");
     // signOut.addEventListener("click", () => { sign_out() })
-}
+// }
 
 
 //         {Read}
